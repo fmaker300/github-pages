@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakrinbank Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #004a9f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .login-container img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+        .login-container h1 {
+            font-size: 24px;
+            color: #ffffff;
+        }
+        .login-container h2 {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="text"], 
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 15px;
+            background-color: #004a9f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #003a7c;
+        }
+        .login-container a {
+            display: block;
+            margin-top: 15px;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="logo.png" alt="Hakrinbank Logo">
+        <h1>HAKRINBANK</h1>
+        <h2>INTERNETBANKIEREN</h2>
+        <p style="color:white;">Log in met uw inloggegevens voor internetbankieren</p>
+        <input type="text" placeholder="E-mailadres">
+        <input type="password" placeholder="Wachtwoord">
+        <button>Inloggen</button>
+        <a href="#">Ik kan niet inloggen</a>
+    </div>
+
+</body>
+</html>
